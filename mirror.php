@@ -192,7 +192,7 @@ start_group( '📥 Download plugin' );
 run_command(
 	sprintf(
 		'curl %s --output %s',
-		escapeshellarg( $data['download_url'] ),
+		escapeshellarg( $zip_url ),
 		escapeshellarg( $zip_file )
 	)
 );
