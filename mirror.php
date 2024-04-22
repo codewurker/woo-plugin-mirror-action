@@ -73,7 +73,7 @@ function get_required_input( $name ) {
  */
 $access_token        = get_required_input( 'woo-access-token' );
 $access_token_secret = get_required_input( 'woo-access-token-secret' );
-$product_id          = get_required_input( 'product-id' );
+$product_id          = get_required_input( 'woo-product-id' );
 $plugin_basename     = get_required_input( 'plugin-basename' );
 $plugin_slug         = dirname( $plugin_basename );
 
